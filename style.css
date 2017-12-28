@@ -4,13 +4,15 @@ footer{
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 40px;
+    height: 30px;
     width: 100%;
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 1em;
     z-index: 3;
 }
+
 /*////////////MOBILE INDEX///////////*/
+
 #index{
     background-color: #131C25;
     margin: 0;
@@ -40,7 +42,9 @@ h1{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 1.7em;
 }
+
 /*////////////I AM///////////*/
+
 #about{
     background-color: #D6D5D3;
     width: 100vw;
@@ -51,19 +55,19 @@ h1{
     bottom: 0;
     text-align: center;
 }
-#backArrow{
-    width: 7vw;
-    margin-left: -200px;
+.backArrow{
+    width: 20px;
+    margin-left: -80vw;
     margin-top: 20px
 }
 .aboutMe{
     font-family: 'Roboto', sans-serif;
 }
 .transition{
-    animation: goLeft 1s forwards;
+    animation: goLeft 0.8s forwards;
 }
 .goBack{
-    animation: goBack 1s forwards;
+    animation: goBack 0.8s ease-in;
 }
 @keyframes goLeft{
     to{
@@ -76,4 +80,67 @@ h1{
     }to{
      transform: translateX(100vw);
     }
+}
+
+/*////////////I DID///////////*/
+
+#themes{
+    background-color: #DBB288;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    text-align: center;
+}
+.backArrow{
+    width: 20px;
+    margin-left: -80vw;
+    margin-top: 20px
+}
+#themesHeading{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.7em;
+    margin-top: 0;
+}
+.circles{
+    position: relative;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif, Medium;
+    font-size: 2em;
+}
+#circleWrap{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        ". spot1 spot2 ."
+        ". spot3 spot4 .";
+}
+#one{
+    background-color: #7D8981;
+    grid-area: spot1;
+    margin-right: 5px;
+}
+#two{
+    background-color: #D76B5A;
+    grid-area: spot2;
+    margin-left: 5px;
+}
+#three{
+    background-color: #1D364A;
+    grid-area: spot3;
+    color: white;
+    margin-top: 4vh;
+    margin-right: 5px;
+}
+#four{
+    background-color: white;
+    grid-area: spot4;
+    margin-top: 4vh;
+    margin-left: 5px;
 }

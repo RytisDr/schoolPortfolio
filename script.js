@@ -1,7 +1,8 @@
 let iAm = document.getElementById("IAm");
 let aboutMe = document.getElementById("about");
 let footer = document.querySelector("footer");
-let backArrow = document.getElementById("backArrow");
+let backArrow = document.getElementsByClassName("backArrow");
+let themes = document.getElementById("themes");
 
 iAm.addEventListener('click', slide);
 function slide(){
