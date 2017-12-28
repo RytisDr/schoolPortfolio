@@ -1,6 +1,20 @@
+footer{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 1em;
+    z-index: 3;
+}
 /*////////////MOBILE INDEX///////////*/
 #index{
     background-color: #131C25;
+    margin: 0;
+    overflow: hidden;
 }
 #IAm{
     background-color: #D6D5D3;
@@ -10,6 +24,7 @@
     transition: transform 1s;
     transform: rotate(45deg) translate(50%, 50%);
     text-align: center;
+    cursor: pointer;
 }
 #IDid{
     background-color: #DBB288;
@@ -25,14 +40,40 @@ h1{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 1.7em;
 }
-footer{
-    color: white;
-    text-align: center;
+/*////////////I AM///////////*/
+#about{
+    background-color: #D6D5D3;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    left: 0;
+    z-index: 2;
+    left: 100vw;
     bottom: 0;
-    height: 50px;
-    width: 100%;
-    font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 1.1em;
+    text-align: center;
+}
+#backArrow{
+    width: 7vw;
+    margin-left: -200px;
+    margin-top: 20px
+}
+.aboutMe{
+    font-family: 'Roboto', sans-serif;
+}
+.transition{
+    animation: goLeft 1s forwards;
+}
+.goBack{
+    animation: goBack 1s forwards;
+}
+@keyframes goLeft{
+    to{
+        transform: translateX(-100vw);
+    }
+}
+@keyframes goBack{
+    from{
+        transform: translateX(-100vw);
+    }to{
+     transform: translateX(100vw);
+    }
 }
