@@ -1,7 +1,7 @@
 let iAm = document.getElementById("IAm");
 let aboutMe = document.getElementById("about");
 let footer = document.querySelector("footer");
-let backArrow = document.querySelector(".backArrow");
+let backArrow = document.querySelectorAll(".backArrow");
 let themes = document.getElementById("themes");
 let iDid = document.getElementById("IDid");
 
@@ -9,25 +9,20 @@ iAm.addEventListener('click', slide);
 function slide(){
     aboutMe.classList.add("transition");
     footer.style.color = "black";
-    backArrow = "here";
 }
-backArrow.addEventListener('click', back)
+backArrow[0].addEventListener('click', back);
+backArrow[1].addEventListener('click', back);
 function back(){
-    if(backArrow == "here"){
-    aboutMe.classList.remove("transition");
-    aboutMe.classList.add("goBack");
+    aboutMe.classList.replace("transition", "goBack");
     footer.style.color = "white";
-    aboutMe.addEventListener("animationend", function(){
+    themes.classList.replace("transition", "goBack");
+    aboutMe.addEventListener("animationend", removal);
+    themes.addEventListener("animationend", removal);
+    function removal(){
         aboutMe.classList.remove("goBack");
-    })
-    }else{
-    themes.classList.remove("transition");
-    themes.classList.add("goBack");
-    themes.addEventListener("animationend", function(){
         themes.classList.remove("goBack");
-    })
-    }
-}
+    }}
+
 iDid.addEventListener('click', slide2);
 function slide2(){
     themes.classList.add("transition");
