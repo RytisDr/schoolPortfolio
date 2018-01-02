@@ -176,6 +176,7 @@ h1{
 }
 #Kilkee{
     width: 100vw;
+    margin-bottom: 20px;
 }
 #Kilkee:hover{
     filter: blur(2px);
