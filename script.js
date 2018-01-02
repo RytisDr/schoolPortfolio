@@ -11,39 +11,46 @@ let theme3 = document.getElementById("three");
 let theme4 = document.getElementById("four");
 let flatDesign = document.getElementById("flatDesign");
 
+
 iAm.addEventListener('click', slide);
-function slide(){
+
+function slide() {
     aboutMe.classList.add("transition");
     footer.style.color = "black";
 }
 backArrow[0].addEventListener('click', back);
 backArrow[1].addEventListener('click', back);
-function back(){
+
+function back() {
     aboutMe.classList.replace("transition", "goBack");
     footer.style.color = "white";
     themes.classList.replace("transition", "goBack");
     aboutMe.addEventListener("animationend", removal);
     themes.addEventListener("animationend", removal);
-    function removal(){
+
+    function removal() {
         aboutMe.classList.remove("goBack");
         themes.classList.remove("goBack");
-    }}
+    }
+}
 
 iDid.addEventListener('click', slide2);
-function slide2(){
+
+function slide2() {
     themes.classList.add("transition");
 }
 theme1.addEventListener('click', open1);
-function open1(){
+
+function open1() {
     let back = document.getElementById("backFromTheme1");
-    flatDesign.addEventListener('click', function(url){
-       window.open("http://rtsdr.com/kea/web/responsive/");
+    flatDesign.addEventListener('click', function (url) {
+        window.open("http://rtsdr.com/kea/web/responsive/");
     })
     theme1Page.classList.add("transition");
-    back.addEventListener('click', function(){
+    back.addEventListener('click', function () {
         theme1Page.classList.replace("transition", "goBack");
-        theme1Page.addEventListener('animationend', function(){
+        theme1Page.addEventListener('animationend', function () {
             theme1Page.classList.remove("goBack");
         })
     })
-    }
+}

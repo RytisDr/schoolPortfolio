@@ -8,7 +8,7 @@ footer{
     width: 100%;
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 1em;
-    z-index: 3;
+    z-index: 10;
 }
 /*////////////ANIMATIONS FOR PAGE MOVEMENT///////////*/
 
@@ -33,7 +33,7 @@ footer{
 
 /*////////////MOBILE INDEX///////////*/
 body{
-    overflow: hidden;
+  overflow: hidden;
 }
 #index{
     background-color: #131C25;
@@ -76,11 +76,12 @@ h1{
     left: 100vw;
     bottom: 0;
     text-align: center;
+
 }
 .backArrow{
     width: 20px;
     margin-left: -80vw;
-    margin-top: 20px
+    margin-top: 70px;
 }
 .aboutMe{
     font-family: 'Roboto', sans-serif;
@@ -100,6 +101,7 @@ h1{
     bottom: 0;
     text-align: center;
     left: 100vw;
+
 }
 #themesHeading{
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -162,6 +164,7 @@ h1{
     font-size: 0.7em;
     text-align: center;
     margin-top: 0;
+
 }
 #flatDesign{
     width: 100vw;
@@ -169,5 +172,11 @@ h1{
     cursor: pointer;
 }
 #flatDesign:hover{
-    filter: grayscale(100%);
+    filter: blur(2px);
+}
+#Kilkee{
+    width: 100vw;
+}
+#Kilkee:hover{
+    filter: blur(2px);
 }
