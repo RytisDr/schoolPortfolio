@@ -10,9 +10,31 @@ footer{
     font-size: 1em;
     z-index: 3;
 }
+/*////////////ANIMATIONS FOR PAGE MOVEMENT///////////*/
+
+.transition{
+    animation: goLeft 0.8s forwards;
+}
+.goBack{
+    animation: goBack 0.8s ease-in;
+}
+@keyframes goLeft{
+    to{
+        transform: translateX(-100vw);
+    }
+}
+@keyframes goBack{
+    from{
+        transform: translateX(-100vw);
+    }to{
+     transform: translateX(100vw);
+    }
+}
 
 /*////////////MOBILE INDEX///////////*/
-
+body{
+    overflow: hidden;
+}
 #index{
     background-color: #131C25;
     margin: 0;
@@ -64,24 +86,7 @@ h1{
 .aboutMe{
     font-family: 'Roboto', sans-serif;
 }
-.transition{
-    animation: goLeft 0.8s forwards;
-}
-.goBack{
-    animation: goBack 0.8s ease-in;
-}
-@keyframes goLeft{
-    to{
-        transform: translateX(-100vw);
-    }
-}
-@keyframes goBack{
-    from{
-        transform: translateX(-100vw);
-    }to{
-     transform: translateX(100vw);
-    }
-}
+
 
 /*////////////I DID///////////*/
 
@@ -142,4 +147,28 @@ h1{
     grid-area: spot4;
     margin-top: 4vh;
     margin-left: 5px;
+}
+
+/*////////////THEME 1///////////*/
+
+#theme1{
+    background-color: #7D8981;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+    left: 100vw;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 0;
+}
+#flatDesign{
+    width: 100vw;
+    max-width: 1300px;
+    cursor: pointer;
+}
+#flatDesign:hover{
+    filter: grayscale(100%);
 }
