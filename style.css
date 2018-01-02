@@ -164,12 +164,10 @@ h1{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 0.7em;
     text-align: center;
-    margin-top: 0;
-
 }
 
 #flatDesign{
-    width: 100vw;
+    width: 90vw;
     max-width: 1300px;
     cursor: pointer;
     margin-bottom: 30px;
@@ -178,7 +176,7 @@ h1{
     filter: blur(2px);
 }
 #Kilkee{
-    width: 100vw;
+    width: 90vw;
     max-width: 1300px;
     margin-bottom: 30px;
     cursor: pointer;
@@ -190,4 +188,54 @@ h1{
     text-decoration-line: underline;
     cursor: pointer;
     margin-bottom: 50px;
+}
+/*////////////THEME 1///////////*/
+#theme2{
+    overflow: scroll;
+    background-color: #D76B5A;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+    /*left: 100vw*/
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+}
+#firstJSAnimation{
+    width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#firstJSAnimation:hover{
+    filter: blur(2px);
+}
+#styleStoryImg{
+    width: 90vw;
+    max-width: 1300px;
+    margin-bottom: 30px;
+}
+#styleStoryImg:hover{
+    filter: blur(2px);
+    cursor: pointer;
+}
+#storyWorkImg{
+    width: 90vw;
+    max-width: 1300px;
+    margin-bottom: 30px;
+}
+#storyWorkImg:hover{
+    filter: blur(2px);
+    cursor: pointer;
+}
+#spriteImg{
+    width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#spriteImg:hover{
+    filter: blur(2px);
 }
