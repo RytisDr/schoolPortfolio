@@ -10,6 +10,7 @@ let theme2 = document.getElementById("two");
 let theme3 = document.getElementById("three");
 let theme4 = document.getElementById("four");
 let flatDesign = document.getElementById("flatDesign");
+let kilkee = document.getElementById("Kilkee");
 
 
 iAm.addEventListener('click', slide);
@@ -43,8 +44,14 @@ theme1.addEventListener('click', open1);
 
 function open1() {
     let back = document.getElementById("backFromTheme1");
+    let presentation=document.getElementById("kilkeePresentation").addEventListener('click', function(){
+        window.open('files/Presentation.pdf');
+    });
     flatDesign.addEventListener('click', function (url) {
         window.open("http://rtsdr.com/kea/web/responsive/");
+    })
+    kilkee.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/web/01.05_group-web-redesign/");
     })
     theme1Page.classList.add("transition");
     theme1Page.style.overflow="scroll";

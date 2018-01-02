@@ -118,6 +118,7 @@ h1{
     justify-content: center;
     font-family: 'Roboto', sans-serif, Medium;
     font-size: 2em;
+    cursor: pointer;
 }
 #circleWrap{
     display: grid;
@@ -184,4 +185,9 @@ h1{
 }
 #Kilkee:hover{
     filter: blur(2px);
+}
+#kilkeePresentation{
+    text-decoration-line: underline;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
