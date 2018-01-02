@@ -178,6 +178,7 @@ h1{
 }
 #Kilkee{
     width: 100vw;
+    max-width: 1300px;
     margin-bottom: 30px;
     cursor: pointer;
 }
