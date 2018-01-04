@@ -123,4 +123,16 @@ theme3.addEventListener('click', function(){
             theme3Page.classList.remove("goBack");
         })
     })
+    let timelapse = document.getElementById("timelapse");
+    timelapse.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/03-video/03.01.01/Group_2_Urban_Life.mp4");
+    })
+    let CPHStoryboard = document.getElementById("altStoryboard");
+    CPHStoryboard.addEventListener('click', function(){
+        window.open("files/Report_AlternativKBH.pdf");
+    })
+    let altCPH = document.getElementById("altCPH");
+    altCPH.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/03-video/03.02.02/");
+    })
 })
