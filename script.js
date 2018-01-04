@@ -62,3 +62,54 @@ function open1() {
         })
     })
 }
+theme2.addEventListener('click', function(){
+    let back = document.getElementById("backFromTheme2");
+    let theme2Page = document.getElementById("theme2");
+    theme2Page.classList.add("transition");
+    back.addEventListener('click', function(){
+         theme2Page.classList.replace("transition", "goBack");
+        theme2Page.addEventListener('animationend', function () {
+            theme2Page.classList.remove("goBack");
+        })
+    })
+    let simpleAnimation = document.getElementById("firstJSAnimation");
+    simpleAnimation.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/02-animation/basic-interactive-animation/");
+    })
+    let styleTile = document.getElementById("styleStoryImg");
+    styleTile.addEventListener('click', function(){
+        window.open("files/style-tile-and-story_rytis-drazdauskas.pdf");
+    })
+    let storyBoardWork = document.getElementById("storyWorkImg");
+    storyBoardWork.addEventListener('click', function(){
+        window.open("files/storyboard-and-work-sheet_Rytis-Drazdauskas.pdf");
+    })
+    let spriteSheet = document.getElementById("spriteImg");
+    spriteSheet.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/02-animation/sprite/");
+    })
+    let sushiTime = document.getElementById("interactiveAnimationImg");
+    sushiTime.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/02-animation/02.03.02-interactive-animation/");
+    })
+    let PP1 = document.getElementById("PP1");
+    PP1.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/02-animation/2.3.3-project-pool-1/");
+    })
+    let PP2 = document.getElementById("PP2");
+    PP2.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/02-animation/2.3.4/");
+    })
+    let collage = document.getElementById("pCollage");
+    collage.addEventListener('click', function(){
+        window.open("images/PersonasCollage_(Group15).jpg");
+    })
+    let storyBoardGroup = document.getElementById("storyboard");
+    storyBoardGroup.addEventListener('click', function(){
+        window.open("images/storyboard_group15_full.jpg");
+    })
+    let summary = document.getElementById("summary");
+    summary.addEventListener('click', function(){
+        window.open("files/group-15_expert-test.pdf");
+    })
+})

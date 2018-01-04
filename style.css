@@ -189,7 +189,7 @@ h1{
     cursor: pointer;
     margin-bottom: 50px;
 }
-/*////////////THEME 1///////////*/
+/*////////////THEME 2///////////*/
 #theme2{
     overflow: scroll;
     background-color: #D76B5A;
@@ -198,7 +198,7 @@ h1{
     bottom: 0;
     position: absolute;
     z-index: 3;
-    /*left: 100vw*/
+    left: 100vw;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 0.7em;
     text-align: center;
@@ -238,4 +238,54 @@ h1{
 }
 #spriteImg:hover{
     filter: blur(2px);
+}
+#interactiveAnimationImg{
+ width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#interactiveAnimationImg:hover{
+    filter: blur(2px);
+}
+#PP1{
+    width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#PP1:hover{
+    filter: blur(2px);
+}
+#PP2{
+    width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#PP2:hover{
+    filter: blur(2px);
+}
+#pCollage{
+    width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#pCollage:hover{
+    filter: blur(2px);
+}
+#storyboard{
+     width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#storyboard:hover{
+     filter: blur(2px);
+}
+#summary{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
