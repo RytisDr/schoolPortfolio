@@ -200,7 +200,7 @@ h1{
 /*////////////THEME 4///////////*/
 #theme4{
     background-color: white;
-    left: 0;
+    overflow: scroll;
 }
 #projectBoat{
     margin-bottom: 50px;

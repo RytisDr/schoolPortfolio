@@ -136,3 +136,16 @@ theme3.addEventListener('click', function(){
         window.open("http://rtsdr.com/kea/03-video/03.02.02/");
     })
 })
+theme4.addEventListener('click', function(){
+    let back = document.getElementById("backFromTheme4");
+    let theme4Page = document.getElementById("theme4");
+    theme4Page.classList.add("transition");
+    footer.style.color = "black";
+    back.addEventListener('click', function(){
+         theme4Page.classList.replace("transition", "goBack");
+        footer.style.color = "white";
+        theme4Page.addEventListener('animationend', function () {
+            theme4Page.classList.remove("goBack");
+        })
+    })
+})
