@@ -32,12 +32,10 @@ footer{
 }
 
 /*////////////MOBILE INDEX///////////*/
-body{
-  overflow: hidden;
-}
 #index{
     background-color: #131C25;
     margin: 0;
+    overflow: hidden;
 }
 #IAm{
     background-color: #D6D5D3;
@@ -153,7 +151,6 @@ h1{
 }
 /*////////////STYLING OFR ALL THEME PAGES///////////*/
 #theme1,#theme2,#theme3,#theme4{
-    background-color: #7D8981;
     width: 100vw;
     height: 100vh;
     bottom: 0;
@@ -174,6 +171,10 @@ h1{
     filter: blur(2px);
 }
 /*////////////THEME 1///////////*/
+#theme1{
+    background-color: #7D8981;
+    overflow: scroll;
+}
 #kilkeePresentation{
     text-decoration-line: underline;
     cursor: pointer;
@@ -205,4 +206,10 @@ h1{
 }
 #presentation{
     margin-bottom: 50px;
+}
+
+/*////////////BREAKPOINT/////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (min-width:900px){
+
 }

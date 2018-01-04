@@ -54,7 +54,6 @@ function open1() {
         window.open("http://rtsdr.com/kea/web/01.05_group-web-redesign/");
     })
     theme1Page.classList.add("transition");
-    theme1Page.style.overflow="scroll";
     back.addEventListener('click', function () {
         theme1Page.classList.replace("transition", "goBack");
         theme1Page.addEventListener('animationend', function () {
