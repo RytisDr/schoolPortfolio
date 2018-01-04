@@ -108,6 +108,7 @@ h1{
     font-size: 1.7em;
     margin-top: 0;
 }
+/*CIRCLES IN THEMES*/
 .circles{
     position: relative;
     border-radius: 50%;
@@ -150,10 +151,8 @@ h1{
     margin-top: 4vh;
     margin-left: 5px;
 }
-
-/*////////////THEME 1///////////*/
-
-#theme1{
+/*////////////STYLING OFR ALL THEME PAGES///////////*/
+#theme1,#theme2,#theme3,#theme4{
     background-color: #7D8981;
     width: 100vw;
     height: 100vh;
@@ -165,15 +164,16 @@ h1{
     font-size: 0.7em;
     text-align: center;
 }
-.theme1Content{
+.themeContent{
     width: 90vw;
     max-width: 1300px;
     cursor: pointer;
     margin-bottom: 30px;
 }
-.theme1Content:hover{
+.themeContent:hover{
     filter: blur(2px);
 }
+/*////////////THEME 1///////////*/
 #kilkeePresentation{
     text-decoration-line: underline;
     cursor: pointer;
@@ -181,28 +181,9 @@ h1{
 }
 /*////////////THEME 2///////////*/
 #theme2{
-    overflow: scroll;
     background-color: #D76B5A;
-    width: 100vw;
-    height: 100vh;
-    bottom: 0;
-    position: absolute;
-    z-index: 3;
-    left: 100vw;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 0.7em;
-    text-align: center;
+    overflow: scroll;
 }
-.theme2Content{
-    width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-.theme2Content:hover{
-    filter: blur(2px);
-}
-
 #summary{
     text-decoration: underline;
     cursor: pointer;
@@ -210,28 +191,17 @@ h1{
 }
 /*////////////THEME 3///////////*/
 #theme3{
-    overflow: scroll;
     background-color: #1D364A;
-    width: 100vw;
-    height: 100vh;
-    bottom: 0;
-    position: absolute;
-    z-index: 3;
-    left: 100vw;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 0.7em;
-    text-align: center;
     color: white;
 }
-.theme3Content{
-    width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-.theme3Content:hover{
-    filter: blur(2px);
-}
 #altCPH{
+    margin-bottom: 50px;
+}
+/*////////////THEME 4///////////*/
+#theme4{
+    background-color: white;
+    left: 0;
+}
+#projectBoat{
     margin-bottom: 50px;
 }
