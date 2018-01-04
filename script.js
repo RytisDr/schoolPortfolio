@@ -113,3 +113,14 @@ theme2.addEventListener('click', function(){
         window.open("files/group-15_expert-test.pdf");
     })
 })
+theme3.addEventListener('click', function(){
+    let back = document.getElementById("backFromTheme3");
+    let theme3Page = document.getElementById("theme3");
+    theme3Page.classList.add("transition");
+    back.addEventListener('click', function(){
+         theme3Page.classList.replace("transition", "goBack");
+        theme3Page.addEventListener('animationend', function () {
+            theme3Page.classList.remove("goBack");
+        })
+    })
+})

@@ -165,23 +165,13 @@ h1{
     font-size: 0.7em;
     text-align: center;
 }
-
-#flatDesign{
+.theme1Content{
     width: 90vw;
     max-width: 1300px;
     cursor: pointer;
     margin-bottom: 30px;
 }
-#flatDesign:hover{
-    filter: blur(2px);
-}
-#Kilkee{
-    width: 90vw;
-    max-width: 1300px;
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-#Kilkee:hover{
+.theme1Content:hover{
     filter: blur(2px);
 }
 #kilkeePresentation{
@@ -203,89 +193,45 @@ h1{
     font-size: 0.7em;
     text-align: center;
 }
-#firstJSAnimation{
+.theme2Content{
     width: 90vw;
     max-width: 1300px;
     cursor: pointer;
     margin-bottom: 30px;
 }
-#firstJSAnimation:hover{
+.theme2Content:hover{
     filter: blur(2px);
 }
-#styleStoryImg{
-    width: 90vw;
-    max-width: 1300px;
-    margin-bottom: 30px;
-}
-#styleStoryImg:hover{
-    filter: blur(2px);
-    cursor: pointer;
-}
-#storyWorkImg{
-    width: 90vw;
-    max-width: 1300px;
-    margin-bottom: 30px;
-}
-#storyWorkImg:hover{
-    filter: blur(2px);
-    cursor: pointer;
-}
-#spriteImg{
-    width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-#spriteImg:hover{
-    filter: blur(2px);
-}
-#interactiveAnimationImg{
- width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-#interactiveAnimationImg:hover{
-    filter: blur(2px);
-}
-#PP1{
-    width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-#PP1:hover{
-    filter: blur(2px);
-}
-#PP2{
-    width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-#PP2:hover{
-    filter: blur(2px);
-}
-#pCollage{
-    width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-#pCollage:hover{
-    filter: blur(2px);
-}
-#storyboard{
-     width: 90vw;
-    max-width: 1300px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-#storyboard:hover{
-     filter: blur(2px);
-}
+
 #summary{
     text-decoration: underline;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+/*////////////THEME 3///////////*/
+#theme3{
+    overflow: scroll;
+    background-color: #1D364A;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+    left: 100vw;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    color: white;
+}
+.theme3Content{
+    width: 90vw;
+    max-width: 1300px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.theme3Content:hover{
+    filter: blur(2px);
+}
+#altCPH{
     margin-bottom: 50px;
 }
