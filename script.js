@@ -148,4 +148,24 @@ theme4.addEventListener('click', function(){
             theme4Page.classList.remove("goBack");
         })
     })
+    let BMC = document.getElementById("BMC");
+    BMC.addEventListener('click', function(){
+        window.open("files/BMC.pdf");
+    })
+    let report = document.getElementById("report");
+    report.addEventListener('click', function(){
+        window.open("files/Business_report.pdf");
+    })
+    let designDoc = document.getElementById("designDoc");
+    designDoc.addEventListener('click', function(){
+        window.open("files/Design_guide.pdf");
+    })
+    let projectBoatWeb = document.getElementById("projectBoat");
+    projectBoatWeb.addEventListener('click', function(){
+        window.open("http://rtsdr.com/kea/04-ux/04.04.01/");
+    })
+    let presentation = document.getElementById("presentation");
+    presentation.addEventListener('click', function(){
+        window.open("files/projectboat-presentation.pdf");
+    })
 })

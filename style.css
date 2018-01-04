@@ -193,6 +193,7 @@ h1{
 #theme3{
     background-color: #1D364A;
     color: white;
+    overflow: scroll;
 }
 #altCPH{
     margin-bottom: 50px;
@@ -202,6 +203,6 @@ h1{
     background-color: white;
     overflow: scroll;
 }
-#projectBoat{
+#presentation{
     margin-bottom: 50px;
 }
