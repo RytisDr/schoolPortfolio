@@ -313,7 +313,8 @@ h1 {
     }
     .backArrow{
         margin-left: -42vw;
-        width: 30px
+        width: 30px;
+        cursor: pointer;
     }
     .circles {
         width: 220px;
@@ -325,7 +326,7 @@ h1 {
     #theme3,
     #theme4 {
         width: 50vw;
-        font-size: 0.7em;
+        font-size: 1em;
         overflow-x: hidden;
     }
     .themeContent {
