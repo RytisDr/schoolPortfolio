@@ -139,7 +139,12 @@ theme4.addEventListener('click', function(){
     let back = document.getElementById("backFromTheme4");
     let theme4Page = document.getElementById("theme4");
     theme4Page.classList.add("transition");
-    footer.style.color = "black";
+    if (window.matchMedia("(min-width: 666px)").matches) {
+  footer.style.color = "white";
+} else {
+  footer.style.color = "black";
+}
+
     back.addEventListener('click', function(){
          theme4Page.classList.replace("transition", "goBack");
         footer.style.color = "white";
