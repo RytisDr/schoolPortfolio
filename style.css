@@ -275,13 +275,13 @@ h1 {
         display: inline;
     }
     #about {
-        top: 27vh;
+        top: 21vh;
         left: 0;
         grid-area: 1;
         width: 50vw;
         background-color: #131C25;
         color: white;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     footer {
         grid-area: 1;

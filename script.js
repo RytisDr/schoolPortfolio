@@ -83,6 +83,10 @@ theme2.addEventListener('click', function(){
     storyBoardWork.addEventListener('click', function(){
         window.open("files/storyboard-and-work-sheet_Rytis-Drazdauskas.pdf");
     })
+    let variations = document.getElementById("variations");
+    variations.addEventListener('click', function(){
+        window.open("images/character_workfile-full_3157x8598.jpg");
+    })
     let spriteSheet = document.getElementById("spriteImg");
     spriteSheet.addEventListener('click', function(){
         window.open("http://rtsdr.com/kea/02-animation/sprite/");
